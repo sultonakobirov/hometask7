@@ -1,5 +1,6 @@
 //task-1
 let word = ['Bob', 'Janeo', "Leo", 'Alexo', 'Dicko','Roma', 'Antony']
+alert(word)
 let nameDelete = prompt("Input name")
 let finalView = nameDelete.replace(nameDelete[0], nameDelete[0].toLocaleUpperCase())// to prevent from error while typing lowercase letters
 if(word.includes(finalView) === true){
