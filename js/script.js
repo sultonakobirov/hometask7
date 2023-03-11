@@ -19,7 +19,8 @@ let namesObject = {
     nameFive: "Pablo"
 }
 let namesArray = ['Bob', 'Janeo', "Leo", 'Alexo', 'Dicko','Roma', 'Antony']
-let nemes
+let namesArrayTwo = ['Tima', 'Dan']
 let objectToArray = Object.values(namesObject) // getting values of the object and returning array containing only values of the object 
-namesArray = namesArray.concat(objectToArray) // concatonation of two arrays
-console.log(namesArray);
+namesArray = namesArray.concat(objectToArray)// concatonation of two arrays
+namesArrayTwo = namesArrayTwo.concat(namesArray)
+console.log(namesArrayTwo);
